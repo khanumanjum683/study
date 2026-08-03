@@ -1,89 +1,186 @@
 # Macro-radiography
 
 ## 1. Definition
+Macro-radiography is a special radiographic technique used to produce an enlarged image of small objects or small anatomical structures. It is mainly used when ordinary radiography cannot show fine detail clearly enough. The purpose is to make very small features appear larger and easier to study.
 
-Macro-radiography is a radiographic technique in which very small structures or fine details are imaged with greater magnification than in ordinary radiography. It is used when the object being examined is too small to show sufficient detail on a standard radiograph. In this method, the object is placed close to the film or imaging receptor, and the x-ray beam is directed through it to produce a larger image of the area of interest.
+In simple words, macro-radiography is radiography with magnification. It is useful for examining tiny structures such as small fractures, fine bone details, small foreign bodies, teeth, insects, and industrial specimens.
 
-The main purpose of macro-radiography is to improve the visibility of small features such as tiny fractures, fine foreign bodies, or delicate structures in specimens, industrial components, or biological materials. It is especially useful when the anatomy or object is small and requires enlargement to be interpreted properly.
+---
 
-## 2. Principle
+## 2. Principle of macro-radiography
+The basic principle of macro-radiography is geometric magnification.
 
-The principle of macro-radiography is based on geometric magnification. The image becomes larger when the object is placed closer to the x-ray source or farther from the film, depending on the setup. In simple terms, the radiographic image is enlarged so that fine details can be seen more clearly.
+When X-rays are produced, they travel from the focal spot in a diverging beam. If the object is placed at a controlled distance from the image receptor, the image becomes larger than the real object. This magnification makes small details more visible.
 
-A larger image can be obtained by increasing the distance between the object and the film, while keeping the x-ray source fixed. This causes the projected image to become magnified. However, magnification is always accompanied by a trade-off: as magnification increases, the sharpness of the image may decrease because of geometric unsharpness and other factors.
+The important idea is that the image size depends on the relationship between:
 
-The principle is therefore to balance magnification and image quality. The aim is to achieve sufficient enlargement without losing too much detail due to blurring or radiation scatter.
+- the source-to-image distance (SID),
+- the source-to-object distance (SOD), and
+- the object-to-image distance (OID).
 
-## 3. Unsharpness
+The magnification factor can be expressed as:
 
-Unsharpness is one of the most important problems in macro-radiography because the technique depends on magnification, and magnification often increases the visibility of image blur. Unsharpness means that the edges of the image are not clearly defined, so fine details become less distinct.
+$$M = \frac{SID}{SOD}$$
 
-There are several causes of unsharpness in macro-radiography:
+This means that increasing the object-to-image distance increases magnification, but it also makes the image more sensitive to blur.
 
-- Geometric unsharpness: caused by the finite size of the focal spot of the x-ray tube. A larger focal spot produces a broader penumbra and therefore a less sharp image.
-- Motion unsharpness: caused by movement of the object, the cassette, or the patient during exposure.
-- Screen unsharpness: caused by the spread of light in intensifying screens, especially in film-screen radiography.
-- Absorption unsharpness: caused by differences in thickness or density in the object, which can blur the edge of the image.
+Therefore, macro-radiography depends on a careful balance between:
 
-In macro-radiography, unsharpness becomes more important because the image is enlarged. A small amount of blur becomes more noticeable. For this reason, the x-ray tube should have a small focal spot, the object should be immobilized, and the setup should be carefully controlled to reduce blur.
+- magnification,
+- sharpness,
+- contrast,
+- exposure,
+- and positioning.
+
+A good macro-radiograph is not just a larger image; it must remain clear, sharp, and diagnostically useful.
+
+---
+
+## 3. Unsharpness in macro-radiography
+Unsharpness is the loss of edge clarity in the image. It appears as blur around the borders of structures. In macro-radiography, unsharpness is very important because enlargement makes even small blur more obvious.
+
+### Causes of unsharpness
+Unsharpness may be caused by:
+
+- large focal spot size,
+- motion of the object or patient,
+- poor film-screen contact,
+- object movement during exposure,
+- geometric unsharpness due to the object being too far from the film.
+
+### Geometric unsharpness
+Geometric unsharpness is especially important in macro-radiography. It is caused by the finite size of the focal spot and the divergence of the X-ray beam. The penumbra, or edge blur, increases when the object is moved farther from the film.
+
+It can be represented as:
+
+$$U = \frac{f \times OID}{SID}$$
+
+where:
+
+- $U$ = geometric unsharpness,
+- $f$ = focal spot size,
+- $OID$ = object-to-image distance,
+- $SID$ = source-to-image distance.
+
+### Why it matters
+In macro-radiography, even a small amount of blur can reduce the visibility of fine detail. A structure may be enlarged, but if the image is fuzzy, the benefit of magnification is lost.
+
+### How to reduce unsharpness
+To improve sharpness in macro-radiography:
+
+- use a small focal spot,
+- keep the object still during exposure,
+- maintain good film-screen contact,
+- use a suitable source-to-image distance,
+- avoid excessive magnification if sharpness becomes poor.
+
+Thus, unsharpness is one of the most important limiting factors in macro-radiography.
+
+---
 
 ## 4. Scattered radiation
+Scattered radiation is radiation that changes direction after interacting with the object being examined. Instead of travelling straight from the X-ray tube to the film, it reaches the film from many different angles.
 
-Scattered radiation is another major problem in macro-radiography. When x-rays pass through the object, some photons are scattered in different directions. These scattered rays do not carry the same useful information as the primary beam and may reduce contrast and clarity in the final image.
+### Effect of scatter
+Scatter causes image fog and reduces contrast. This means that fine details become harder to see. In macro-radiography, this is especially important because the technique is used to detect very small structures.
 
-Scattered radiation is especially important in macro-radiography because the object is often close to the film and the image is being enlarged. This makes the effects of scatter more visible. The scatter can make the radiograph look foggy and reduce the visibility of fine detail.
+If scattered radiation is excessive:
 
-To reduce scattered radiation, several measures may be used:
+- the image becomes less clean,
+- the contrast between structures decreases,
+- fine detail may be hidden,
+- the radiograph becomes less useful for diagnosis.
 
-- Use of collimation to limit the x-ray beam to the area of interest
-- Use of grids to absorb scattered radiation before it reaches the film
-- Careful positioning of the object and cassette
-- Use of appropriate filtration and exposure settings
+### Why scatter is important in macro-radiography
+Although macro-radiography is often performed on small objects, scatter can still reduce image quality, especially when the specimen is thick, dense, or large in volume. The problem becomes more noticeable because the purpose of the technique is to show very small differences in detail.
 
-Reducing scatter helps improve contrast, sharpness, and overall image quality. This is closely related to the problem of unsharpness because both features affect the clarity of fine detail.
+### How scatter is reduced
+Scatter can be reduced by:
 
-## 5. Cassette support
+- collimation of the X-ray beam,
+- using a grid when needed,
+- keeping the beam size appropriate to the object,
+- using suitable exposure factors,
+- maintaining good positioning and geometry.
 
-Cassette support is very important in macro-radiography because the cassette or imaging plate must be positioned accurately and held firmly in place. The support must keep the object and the receptor at the correct distance and prevent movement during exposure.
+In summary, scatter reduces contrast, and loss of contrast weakens the value of the magnified image.
 
-A good cassette support helps to:
+---
 
-- Maintain the required magnification
-- Keep the object and film in a fixed relationship
-- Reduce movement unsharpness
-- Improve reproducibility of the radiographic setup
+## 5. Cassette support in macro-radiography
+Cassette support refers to the support system that holds the film or image receptor in a stable and correct position during exposure. In macro-radiography, the support is very important because the image quality depends strongly on correct geometry and stable positioning.
 
-In many macro-radiographic setups, the object is placed on a support device or a specialized holder so that the film or cassette remains steady. The support may also allow the object to be placed very close to the film to increase magnification. However, the support must not introduce distortion or create unwanted gaps that may affect the geometry of the image.
+### Role of cassette support
+A proper cassette support should:
 
-Cassette support is therefore directly related to both magnification and image quality. If the support is unstable or poorly positioned, the image may become blurred or inaccurately magnified.
+- hold the film flat,
+- maintain the correct object-to-film distance,
+- keep the object and film parallel,
+- reduce movement during exposure,
+- prevent distortion and misalignment,
+- improve reproducibility of the examination.
+
+### Why it matters
+If the cassette support is poor, the film may not remain in the correct position. This can cause:
+
+- magnification errors,
+- distortion,
+- movement blur,
+- poor sharpness,
+- inaccurate representation of small structures.
+
+### Practical importance
+In macro-radiography, the cassette support is not just a holder; it is part of the image quality system. It helps maintain the geometric conditions needed for a clear and enlarged image.
+
+A good support also helps the radiographer position the specimen accurately and repeat the setup consistently.
+
+---
 
 ## 6. Examples of macro-radiography
+Macro-radiography is used in both medical and non-medical fields. Some common examples include:
 
-Macro-radiography is used in several areas where fine detail must be visualized clearly.
+### Medical examples
+- examination of small bones and fine skeletal details,
+- evaluation of small fractures or cortical irregularities,
+- dental radiography where magnification helps show fine structures,
+- study of small pathological changes in specimens.
 
-Examples include:
+### Non-medical or industrial examples
+- radiography of insects and small biological specimens,
+- imaging of seeds, plant structures, or fossils,
+- examination of small metallic components,
+- inspection of welds, cracks, and internal defects in small objects,
+- evaluation of jewelry, coins, or tiny foreign bodies.
 
-- Examination of small bones or fine fractures in small animals or specimens
-- Study of tiny foreign bodies in soft tissues or surgical specimens
-- Investigation of industrial components such as tiny cracks, weld defects, or internal faults
-- Examination of botanical or biological specimens where fine structures need to be demonstrated
-- Evaluation of dental or small extremity structures where detailed imaging is needed
+These examples show that macro-radiography is valuable whenever small detail must be shown clearly.
 
-In medical radiography, macro-radiography may be used to study small anatomical details that are not clearly visible on standard radiographs. In industrial radiography, it helps detect defects in small components that would otherwise be difficult to see.
+---
 
-## How these topics are related
+## 7. How these topics are related
+These topics are closely connected and form one complete imaging concept.
 
-These topics are closely related because they all influence the quality of the final radiographic image.
+### Relationship between principle and unsharpness
+The principle of magnification improves visibility, but greater magnification also increases the risk of unsharpness. Therefore, the radiographer must control the geometry carefully.
 
-1. The definition of macro-radiography is based on the need to enlarge small structures.
-2. The principle of the technique depends on geometric magnification.
-3. However, increasing magnification also increases the risk of unsharpness.
-4. Scattered radiation reduces contrast and makes fine detail harder to see.
-5. Cassette support helps maintain correct geometry and reduces movement, making the magnified image sharper.
-6. In practice, the success of macro-radiography depends on balancing magnification with sharpness, contrast, and stability.
+### Relationship between unsharpness and scattered radiation
+Both unsharpness and scatter reduce image quality. Unsharpness blurs the edges, while scatter reduces contrast. A good macro-radiograph must control both if fine detail is to be seen clearly.
 
-In other words, macro-radiography is not just about making the image larger. It is about producing a clear, magnified image by controlling geometry, reducing blur, limiting scatter, and ensuring that the object and cassette are held in the correct position.
+### Relationship between cassette support and image quality
+Cassette support helps maintain correct positioning and geometry. Because of this, it directly influences sharpness, magnification, and distortion.
 
-## Summary
+### Overall relationship
+Macro-radiography succeeds only when magnification, sharpness, contrast, and positioning are balanced. If one factor is poor, the entire image quality suffers.
 
-Macro-radiography is a technique used to produce enlarged images of small structures so that fine detail can be seen more clearly. Its principle is based on magnification, but this must be controlled carefully because magnification increases the risk of unsharpness. Scattered radiation reduces contrast and clarity, while proper cassette support helps maintain accuracy and reduce movement. The technique is widely used in medicine, biology, and industry, where detailed visualization of small features is essential.
+In short:
+
+- magnification helps reveal small details,
+- unsharpness can destroy the benefit of magnification,
+- scatter can reduce contrast and hide detail,
+- cassette support helps preserve the correct geometry needed for a clear image.
+
+---
+
+## 8. Summary
+Macro-radiography is a technique of producing enlarged radiographic images of small objects or structures. Its principle is based on geometric magnification. However, magnification increases the importance of unsharpness, scatter, and precise positioning. A strong cassette support and careful control of geometry help produce a sharp, clear, and useful image.
+
+So, macro-radiography is not only about making the object look larger; it is about making the image both enlarged and diagnostically reliable.
